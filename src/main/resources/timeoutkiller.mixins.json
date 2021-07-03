@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "de.rangun.timeoutkiller.mixins",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+		"ChannelInitializerMixin",
+		"ServerLoginNetworkHandlerMixin",
+		"ServerPlayNetworkHandlerKeepAliveMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1,
+		"maxShiftBy": 5
+	}
+}

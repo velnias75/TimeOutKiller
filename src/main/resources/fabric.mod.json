@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "timeoutkiller",
+  "version": "${version}",
+
+  "name": "TimeOutKiller",
+  "description": "Increases several timeouts",
+  "authors": [
+    "Velnias75"
+  ],
+  "contact": {
+    "homepage": "https://discord.me/agoramc",
+    "sources": "https://github.com/velnias75/TimeOutKiller"
+  },
+
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/timeoutkiller/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "de.rangun.timeoutkiller.TimeOutKiller"
+    ]
+  },
+  "mixins": [
+    "timeoutkiller.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17"
+  }
+}
