@@ -15,6 +15,10 @@ repositories {
 	// for more information about repositories.
 }
 
+loom {
+    customMinecraftManifest = "https://gist.githubusercontent.com/velnias75/423ca0dd79ffbc03e557166cb25370bb/raw/ee24ff4abfc0955bf4d3369372885dfbe8e049d1/1_18_experimental-snapshot-4.json"
+}
+
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
